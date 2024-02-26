@@ -49,13 +49,39 @@
       height: 60px;
       left: 50%;
       top: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, 0);
       padding: 10px 30px;
       background-color: green;
       color: white;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+   }
+
+   .button-container {
+      position: fixed;
+
+      height: 150px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      /* padding: 10px 30px; */
+      /* background-color: green; */
+      width: 100%;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+   }
+
+   .button-container {
+      display: inline-block;
+      text-align: center;
+   }
+
+   .button-container span {
+      display: block;
+      margin-bottom: 10px;
    }
 </style>
 
@@ -66,8 +92,13 @@
       <div class="overlay"></div>
 
    </div>
-   <button class="button" onclick="window.location.href='https://win999.203phcash.net/?referralCode=tgb1158'">Enter to
-      Explore</button>
+
+   <div class="button-container">
+      <span>Contact Customer Service post-registration for the bonus</span>
+      <button class="button" onclick="window.location.href='https://win999.203phcash.net/?referralCode=tgb1158'">Enter
+         to
+         Explore</button>
+   </div>
 </body>
 
 </html>
